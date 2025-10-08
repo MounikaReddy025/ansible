@@ -77,5 +77,5 @@
     ignore_errors: true
 
   - name: print redirect_output
-    nsible.builtin.debug:
+    ansible.builtin.debug:
       msg: "{{ redirect_output }}"
